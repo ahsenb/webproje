@@ -1,0 +1,90 @@
+/* Import Google Font */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#tabs .content{
+    background-color: #fff;
+    height: 400px;
+}
+
+
+/* STYLING */
+.container {  
+    margin: 105px auto;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    color: #888;
+}
+
+/* Style the tabs */
+#tabs {
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: -2px;
+    color: #069;
+    font-size:15px;
+    border: 1px solid #eceef1;
+    border-radius: 5px 5px 0 0;
+    background: #eceef1;
+    margin-top: 60px;
+    height: 400px;
+}
+
+#tabs .header{
+    font-size: 18px;
+    color: #566678;
+    font-weight: 700;
+    margin-top: -15px;
+}
+
+.modifier-nav a{
+    float:right;
+    cursor: pointer;
+    padding: 10px 24px;
+    transition: background-color 0.2s;
+    background-color: #eceef1;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+    margin-top: -47px;
+    height: 48px;
+    color: #069;
+    font-family: Arial,Helvetica,Garuda,sans-serif;
+}
+
+#tabs ul{
+    margin-left: 800px;
+}
+
+.information_1 .product_name1{
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    overflow: hidden;
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: #002f5f;
+}
+
+.price_1 {
+    display: table;
+    width: 100%;
+}
+.price_1 {
+    border-top: 1px dotted #ccc;
+    margin-top: 5px;
+    padding: 5px 0;
+    text-align: left;
+}
+
+ .price .colon {
+    display: inline;
+}
+.price span{
+    display: table-cell;
+    vertical-align: bottom;
+}

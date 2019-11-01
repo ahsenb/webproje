@@ -1,0 +1,33 @@
+.carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+
+.carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .active, .carousel-inner .active + .carousel-item2, .carousel-inner .active + .carousel-item2 + .carousel-item2, .carousel-inner .active + .carousel-item2 + .carousel-item2 + .carousel-item2 {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item2.active:not(.carousel-item2-right):not(.carousel-item2-left), .carousel-inner .carousel-item2.active:not(.carousel-item2-right):not(.carousel-item2-left) + .carousel-item2, .carousel-inner .carousel-item2.active:not(.carousel-item2-right):not(.carousel-item2-left) + .carousel-item2 + .carousel-item2, .carousel-inner .carousel-item2.active:not(.carousel-item2-right):not(.carousel-item2-left) + .carousel-item2 + .carousel-item2 + .carousel-item2 {
+    transition: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-inner .active.carousel-item2 + .carousel-item2 + .carousel-item2 + .carousel-item2 + .carousel-item2 {
+    position: absolute;
+    top: 0;
+    right: -25%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+}
+
